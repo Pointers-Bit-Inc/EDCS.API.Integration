@@ -15,8 +15,8 @@ string edcsUrl = "https://test02-edcs-web-appsvc.azurewebsites.net";
 
 var userLogin = new LoginCredentials
 {
-    UsernName = "superadmin",
-    Password = "Reversed123"
+    UsernName = "test_username",
+    Password = "test_p@ssw0rd"
 };
 
 using (HttpClient client = new HttpClient())
