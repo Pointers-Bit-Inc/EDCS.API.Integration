@@ -1,13 +1,17 @@
-<p align="center">
+<p style="text-align: center;" align="center">
  <img width="200" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/api-integration-3919433-3246625.png" alt="API">
 </p>
 
-# EDCS API Integration 
+<div align="center">
+ <h1>EDCS API Integration </h1>
+</div>
+
 The aim of this project is to highlight the smooth integration of backend APIs with our current enrollment application, directing data flow seamlessly to our EDCS application endpoint.
 
 ### How it works:
 ```
 This application serves as a demonstration of how to integrate our Enrollment Application with our EDCS using C#. However, you have the flexibility to use other programming languages according to your preference.
+The precise code can be found within Program.cs.
 
 1. Authenticate with valid user credentials.
 2. Upon successful authentication, the application will make a request to our EDCS login endpoint, which will return user credentials along with an access token.
