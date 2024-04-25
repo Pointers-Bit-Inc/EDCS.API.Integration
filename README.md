@@ -20,7 +20,17 @@ The precise code can be found within Program.cs.
 5. Make a request to the PR Upload endpoint (/promotional-reports/load-pr) and configure your payload accordingly.
 6. The application will handle the response based on the actual backend validation.
 7. In case of any issues, ensure to double-check your implementation for any errors or omissions.
+
+PR payloads should originate from the database, adhering to the PRPayload.json schema,
+which serves as a valid sample for the EDCS system.
+Responses from the backend may vary between 400 and 500 based on validation criteria.
 ````
 
+<p style="text-align: center;" align="center">
+ <img width="750" src="https://github.com/pointersbit/EDCS.API.Integration/blob/development/EDCS.png" alt="API">
+</p>
+
+
 ##### Note: For further information, we recommend referring to our API Integration Manual.    
-For detailed explanation on how things work, check out [C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/).
+For detailed explanation on how things work, check out [C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/).    
+For API Integration details on how it works, check out [API Integration](https://tray.io/blog/what-is-an-api-integration-for-non-technical-people)
