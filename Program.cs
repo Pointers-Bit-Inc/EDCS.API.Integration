@@ -11,7 +11,7 @@ Console.WriteLine("EDCS API Integration.");
 
 string contentType = "application/json";
 
-string edcsUrl = "https://test02-edcs-web-appsvc.azurewebsites.net";
+string edcsUrl = "https://edcs-test.ustp.edu.ph";
 
 var userLogin = new LoginCredentials
 {
